@@ -2,14 +2,14 @@ import React from 'react'
 
 export const MyComponent = () => {
   
-  const name = "Inés";
-  const repository = "https://github.com/inesmariao/component-practice";
+  const name = "Gustavo";
+  const repository = "https://github.com/tavoo11";
 
   const student = {
-    name: "Carlos",
-    lastName: "Caro",
+    name: "Jorge",
+    lastName: "Paternina",
     mobile: "30000000",
-    linkedinProfile: "https://www.linkedin.com/in/carlos-caro"
+    linkedinProfile: "https://www.linkedin.com/in/jorge-paternina"
   }
 
   console.log(student);
