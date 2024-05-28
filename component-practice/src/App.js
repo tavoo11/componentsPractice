@@ -18,8 +18,8 @@ function App() {
   }
 
   const medicalRecord = {
-    height: "160",
-    bloodGroup: "RhO+",
+    height: "180",
+    bloodGroup: "RhA-",
     allergies: "None"
   }
 
@@ -40,8 +40,8 @@ function App() {
         <Child name={name} setName={setName} addMessage={addMessage}/>
         <SecondComponent />
         <ThirdComponent
-          name="Inés"
-          lastName="Oliveros"
+          name="Gustavo"
+          lastName="Buelvas"
           card={medicalRecord}
         />
         <MyComponent />
